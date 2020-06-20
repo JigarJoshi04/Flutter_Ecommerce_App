@@ -5,6 +5,7 @@ import 'package:carousel_pro/carousel_pro.dart';
 
 import 'package:flutter_ecom/components/horizontal_listview.dart';
 import 'package:flutter_ecom/components/products.dart';
+import 'package:flutter_ecom/pages/cart.dart';
 void main(){
   runApp(
     new MaterialApp(
@@ -46,7 +47,9 @@ class _HomePageState extends State<HomePage> {
         title: Text('ShopApp'),
         actions: <Widget>[
           new IconButton(icon: Icon(Icons.search), onPressed: (){}),
-          new IconButton(icon: Icon(Icons.shopping_cart), onPressed:(){})
+          new IconButton(icon: Icon(Icons.shopping_cart), onPressed:(){
+            Navigator.push(context, MaterialPageRoute(builder:(context)=>new Cart() ));
+          })
         ],
       ),
 
@@ -91,10 +94,12 @@ class _HomePageState extends State<HomePage> {
           ),
 
           InkWell(
-            onTap: (){},
+            onTap: (){
+              Navigator.push(context,MaterialPageRoute(builder: (context)=>new Cart()));
+            },
             child: ListTile(
-              title: Text('Categories'),
-              leading: Icon(Icons.dashboard,color: Colors.blue,),
+              title: Text('Shopping cart'),
+              leading: Icon(Icons.shopping_cart,color: Colors.blue,),
               ),
           ),
 

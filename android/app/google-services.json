@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1064607087248",
+    "firebase_url": "https://mitti-app.firebaseio.com",
+    "project_id": "mitti-app",
+    "storage_bucket": "mitti-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064607087248:android:41ca24f69b4106c493b615",
+        "android_client_info": {
+          "package_name": "com.example.flutter_ecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064607087248-358a58r61h7uchp1glg3h02hs6c09ktj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_ecom",
+            "certificate_hash": "4679c0b4b00864db542df0215bdf9a84acc08d84"
+          }
+        },
+        {
+          "client_id": "1064607087248-rtk21k21jqt5v19ftm6gn82d5cgv8uof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0q0VzggP1lEipc7EVsIRLWhYF3xRtK0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064607087248-rtk21k21jqt5v19ftm6gn82d5cgv8uof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
