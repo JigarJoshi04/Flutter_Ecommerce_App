@@ -102,7 +102,7 @@ class _LoginState extends State<Login> {
     // FirebaseUser firebaseUser = await firebaseAuth.signInWithGoogle(
     //   idtoken: googleSignInAuthentication.idToken,accessToken:null)
 
-    //Jigar trying
+    
     
   }
 
